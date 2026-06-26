@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DogCEOPy"
+version = "1.0.0"
+description = "A lightweight Python wrapper for the Dog CEO API."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+
+authors = [{ name = "fmasterpro27" }]
+
+dependencies = ["requests>=2.34.2"]
+
+keywords = [
+    "dog",
+    "dogs",
+    "dog-api",
+    "dog-ceo",
+    "dog-images",
+    "dog-breeds",
+    "api-wrapper",
+    "python-api",
+    "requests",
+]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Internet",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/Fmasterpro27/dogceopy"
+Repository = "https://github.com/Fmasterpro27/dogceopy"
+Issues = "https://github.com/Fmasterpro27/dogceopy/issues"
+Documentation = "https://github.com/Fmasterpro27/dogceopy#readme"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
